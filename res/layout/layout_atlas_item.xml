@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_atlas_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginTop="11dp"
+        android:maxLines="3"
+        android:text="标题"
+        android:textColor="#363636"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/iv_atlas_image"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/tv_atlas_title"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/home_scroll_default" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_atlas_image"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" >
+
+         <TextView
+            android:id="@+id/tv_pub_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="date"
+            android:textColor="#828282"
+            android:textSize="14sp" />
+
+         <TextView
+             android:id="@+id/tv_comment_count"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:drawablePadding="5dp"
+             android:layout_alignParentRight="true"
+             android:drawableRight="@drawable/icon_news_comment_num"
+             android:maxLines="1"
+             android:textColor="#828282"
+             android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
