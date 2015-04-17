@@ -115,7 +115,6 @@ public class NewsPage extends BasePage {
 		}
 		 @Override  
          public void destroyItem(View container, int position, Object object) {  
-             // TODO Auto-generated method stub  
 			 if(position>=pages.size()) return;
              ((ViewPager)container).removeView(pages.get(position).getContentView());  
          }  
