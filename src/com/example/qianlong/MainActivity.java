@@ -3,7 +3,10 @@ import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
 import android.os.Bundle;
 import android.view.Window;
-
+/**
+ * @author :LiuJie 时间: 2015年4月20日 下午1:35:49
+ * @注释:
+ */
 public class MainActivity extends SlidingFragmentActivity {
 	private MenuFragment mMenuFragment;
 	private HomeFragment2 mHomeFragment;
